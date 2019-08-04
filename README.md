@@ -174,20 +174,6 @@ As suggested by the Gradient boost model top 12 features needed for a real estat
 
 **Conclusion: The Gradient Boost model has the highest accuracy of 81% compared to all other models.**
 
-## [Project 3.7.1-Unit 3 Capstone Project.ipynb](https://github.com/aradhagan/Projects-Thinkful/blob/master/Project%203.7.1-Unit%203%20Capstone%20Project.ipynb)
- Power point presentation [Unit 3 Capstone-Supervised learning.pptx](https://github.com/aradhagan/Projects-Thinkful/blob/master/Unit%203%20Capstone-Supervised%20learning.pptx)
-
-This is a regression problem where we are trying to predict House prices based on various features. We also want to know some explanatory power of these features in determining the value of the houses. Some algorithms that do well in predicting here are Random Forest Regression, Gradient Boost regression etc.
-
-The residual plot appears to do well expect that very high/low values are not predicted very well with this model.
-
-The residual histogram plot shows if there is multivariate normality of the error. The outlier or skewness in error must be fixed for better performance.
-
-The Gradient boost model also suggests a top 12 features for a real estate developer to add value to a house and also predictive of the prices of house.
-
-Random Forest Regression has the highest accuracy of 93% and Random Forest Regression model has the next highest with 92% accuracy
-
-In terms of the lowest error Random Forest Regression model has the lowest error compared to all other models.
 
 ## [Project BC-3.1.4.Challenge Model Comparison.ipynb](https://github.com/aradhagan/Projects-Thinkful/blob/master/Project%20BC-3.1.4.Challenge%20Model%20Comparison.ipynb)
 
@@ -336,6 +322,21 @@ The dataset is from kaggle website about black-Friday sales and the customer det
 
 There are 4 Visuals total and each of them answer questions about the shopping behavior of the customer based on the black Friday dataset.
 
+
+## [Unit 3-Capstone-Supervised learning-3.7.1.ipynb](https://github.com/aradhagan/Thinkful--Projects/blob/master/Unit%203-Capstone-Supervised%20learning-3.7.1.ipynb)
+ Power point presentation [Unit 3 Capstone-Supervised learning.pptx](https://github.com/aradhagan/Projects-Thinkful/blob/master/Unit%203%20Capstone-Supervised%20learning.pptx)
+
+This is a regression problem where we are trying to predict House prices based on various features. We also want to know some explanatory power of these features in determining the value of the houses. Some algorithms that do well in predicting here are Random Forest Regression, Gradient Boost regression etc.
+
+The residual plot appears to do well expect that very high/low values are not predicted very well with this model.
+
+The residual histogram plot shows if there is multivariate normality of the error. The outlier or skewness in error must be fixed for better performance.
+
+The Gradient boost model also suggests a top 12 features for a real estate developer to add value to a house and also predictive of the prices of house.
+
+Random Forest Regression has the highest accuracy of 93% and Random Forest Regression model has the next highest with 92% accuracy
+
+In terms of the lowest error Random Forest Regression model has the lowest error compared to all other models.
 ## [Unit 4-Capstone -NLP Text clustering Modelling-final.ipynb](https://github.com/aradhagan/Projects-Thinkful/blob/master/Unit%204-Capstone%20-NLP%20Text%20clustering%20Modelling-final.ipynb)
 
 Challenge: Compare the stability or accuracy of text classification between clustering and model classification
