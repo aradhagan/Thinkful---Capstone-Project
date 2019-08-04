@@ -332,7 +332,7 @@ Performed Feature engineering of several variables to see which feature is the m
 
 ## [Unit 1-Capstone-Black Friday Data plot.ipynb](https://github.com/aradhagan/Thinkful--Projects/blob/master/Unit%201-Capstone-Black%20Friday%20Data%20plot.ipynb)
 
-The dataset is from kaggle website about black-Friday sales and the customer details and the shopping they do. The challenge here is to do some EDA (Explanatory Data Analysis) and answer some basic questions or patterns of customer shopping behavior through visuals or tables or explanations. 
+The dataset is from kaggle website about black-Friday sales and the customer details and the shopping they do. The challenge here is to do data analysis and answer some basic questions or patterns of customer shopping behavior through visuals or tables or explanations. 
 
 There are 4 Visuals total and each of them answer questions about the shopping behavior of the customer based on the black Friday dataset.
 
