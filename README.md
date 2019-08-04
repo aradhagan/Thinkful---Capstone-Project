@@ -330,7 +330,7 @@ Performed Feature engineering of several variables to see which feature is the m
 
 **Conclusion: Implemented SelectKBest feature extraction/filtering method and selected the top 3 major factors for arrival delays in the flights. They are ['late_aircraft_delay', 'nas_delay', 'carrier_delay']**
 
-## [Unit 1-Capstone-Black Friday Data plot.ipynb](https://github.com/aradhagan/Thinkful--Projects/blob/master/Unit%201-Capstone-Black%20Friday%20Data%20plot.ipynb)
+## [Unit 1-My first Data plot.ipynb](https://github.com/aradhagan/Thinkful--Projects/blob/master/Unit%201-My%20first%20Data%20plot.ipynb)
 
 The dataset is from kaggle website about black-Friday sales and the customer details and the shopping they do. The challenge here is to do data analysis and answer some basic questions or patterns of customer shopping behavior through visuals or tables or explanations. 
 
