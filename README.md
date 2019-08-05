@@ -18,39 +18,6 @@ Implementation 6: Convolutional Neural Network with Data Augmentation and additi
 
 **Conclusions:** The best implementation is 6 even the computational time has increased, since accuracy is around 88% it is worth the tradeoff.
 
-## [Capstone project-Nagadhara.ipynb](https://github.com/aradhagan/Projects-Thinkful/blob/master/Capstone%20project-Nagadhara.ipynb)
-The data set here is Traffic violations. Dataset is Open Parking and Camera Violations. Source: NYC OpenDATA issued by City of New York. https://data.cityofnewyork.us/City-Government/Open-Parking-and-Camera-Violations/nc67-uf89/data
-
-The dataset is hosted by NYC OpenData and created on Jan 4th, 2016 and updated every day. It was made public on 01/11/2016. The dataset used here was last updated on Dec 19, 2018. This dataset contains Open Parking and Camera Violations issued by the City of New York. The Agency that issued the dataset is Department of Finance (DOF).
-
-It has 1048575 Rows and 16 Columns.
-
-- Question 1: Does the time of the day or month of year or Day of the week have any effect on Violations?
-  - Step 1: Clean the data of NaNs
-  - Step 2: Formatting the 'Violation_Time' column to 24-hour date format for efficient date extractions and readability
-  - Step 3: Now plotting the desired analysis in Matplotlib using bar charts
-  
-- Question 2(a): How far are the Violations given by the Law enforcement officer really lawful from the cases that came to the court?
-  - Step 1: We need to calculate how many are not guilty which will give a percentage of Violations that are not really lawful or incorrectly charged.
-  
-- Question 2(b): How far are the amount of fees charged by Officer correctly charged based on the cases that were charged a fine amount for the violation?
-  - Step 1: Find the number of non-null cases where there is a charge or the Fine amount is greater than 0
-  - Step 2: From those cases find the number of cases where the charge was correct i.e. where the reduction amount was zero.
-  
-- Question 3: Which county has the highest number of Violations and does the number of Violations correlate with the population/Number of vehicles in those counties?
-
-- Question 4: Of all the cases appealed to the court, what is the category of violations
-  - a) To answer this question
-    - Second, we need to check the categories of Violations and see from the cases that appealed is there any category which has the highest number of appeals.
-  - b) What is the category of violations that have the highest cases of not guilty?
-  
-### RESEARCH PROPOSAL
-When a person is ticketted and he feels he is not guilty, then it will be highly beneficial for a person to know his chances of getting proven not guilty before deciding to appeal to the court.
-
-To answer this question, first one needs to calculate what the chances of are guilty or not guilty for all the major categories, based on the past/existing data.
-
-Then, using a prediction model, one needs to train the model using the existing data and then predict the chances of not guilty based on a category.
-
 ## [Challenge 4.4.5-Build your own NLP model-vf.ipynb](https://github.com/aradhagan/Projects-Thinkful/blob/master/Challenge%204.4.5-Build%20your%20own%20NLP%20model-vf.ipynb)
 
 **Challenge: Is to Build an NLP model to classify reviews or texts from Amazon as positive or negative.**
@@ -321,6 +288,40 @@ Performed Feature engineering of several variables to see which feature is the m
 The dataset is from kaggle website about black-Friday sales and the customer details and the shopping they do. The challenge here is to do data analysis and answer some basic questions or patterns of customer shopping behavior through visuals or tables or explanations. 
 
 There are 4 Visuals total and each of them answer questions about the shopping behavior of the customer based on the black Friday dataset.
+
+## [Unit 2 DS Fundaments Capstone project-Nagadhara.ipynb](https://github.com/aradhagan/Thinkful--Projects/blob/master/Unit%202%20DS%20Fundaments%20Capstone%20project-Nagadhara.ipynb)
+
+The data set here is Traffic violations. Dataset is Open Parking and Camera Violations. Source: NYC OpenDATA issued by City of New York. https://data.cityofnewyork.us/City-Government/Open-Parking-and-Camera-Violations/nc67-uf89/data
+
+The dataset is hosted by NYC OpenData and created on Jan 4th, 2016 and updated every day. It was made public on 01/11/2016. The dataset used here was last updated on Dec 19, 2018. This dataset contains Open Parking and Camera Violations issued by the City of New York. The Agency that issued the dataset is Department of Finance (DOF).
+
+It has 1048575 Rows and 16 Columns.
+
+- Question 1: Does the time of the day or month of year or Day of the week have any effect on Violations?
+  - Step 1: Clean the data of NaNs
+  - Step 2: Formatting the 'Violation_Time' column to 24-hour date format for efficient date extractions and readability
+  - Step 3: Now plotting the desired analysis in Matplotlib using bar charts
+  
+- Question 2(a): How far are the Violations given by the Law enforcement officer really lawful from the cases that came to the court?
+  - Step 1: We need to calculate how many are not guilty which will give a percentage of Violations that are not really lawful or incorrectly charged.
+  
+- Question 2(b): How far are the amount of fees charged by Officer correctly charged based on the cases that were charged a fine amount for the violation?
+  - Step 1: Find the number of non-null cases where there is a charge or the Fine amount is greater than 0
+  - Step 2: From those cases find the number of cases where the charge was correct i.e. where the reduction amount was zero.
+  
+- Question 3: Which county has the highest number of Violations and does the number of Violations correlate with the population/Number of vehicles in those counties?
+
+- Question 4: Of all the cases appealed to the court, what is the category of violations
+  - a) To answer this question
+    - Second, we need to check the categories of Violations and see from the cases that appealed is there any category which has the highest number of appeals.
+  - b) What is the category of violations that have the highest cases of not guilty?
+  
+### RESEARCH PROPOSAL
+When a person is ticketted and he feels he is not guilty, then it will be highly beneficial for a person to know his chances of getting proven not guilty before deciding to appeal to the court.
+
+To answer this question, first one needs to calculate what the chances of are guilty or not guilty for all the major categories, based on the past/existing data.
+
+Then, using a prediction model, one needs to train the model using the existing data and then predict the chances of not guilty based on a category.
 
 
 ## [Unit 3-Capstone-Supervised learning-3.7.1.ipynb](https://github.com/aradhagan/Thinkful--Projects/blob/master/Unit%203-Capstone-Supervised%20learning-3.7.1.ipynb)
